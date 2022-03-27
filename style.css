@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-name {
+    font-size: 36px;
+    text-align: center;
+    font-family: "Roboto Light", sans-serif;
+}
+
+#canvas {
+    margin: auto;
+    display: flex;
+    box-shadow: black 5px 10px 20px;
+}
+
+.snake {
+    height: 11px;
+    width: 11px;
+    background-color: white;
+    border: green 10px;
+    margin: 1px;
+}
+
+.food {
+    height: 10px;
+    width: 10px;
+    background-color: red;
+}
